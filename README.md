@@ -3,7 +3,6 @@
 Get Discord notifications for newly opened issues and pull requests on a schedule you choose. The default repositories are:
 
 - bitcoin/bitcoin
-- rust-bitcoin/rust-bitcoin
 - bitcoin-core/secp256k1
 
 All checks run in one `ubuntu-slim` job. To choose your repositories, edit the `REPOS` list in `.github/workflows/monitor.yml`. Use one line per repository.
