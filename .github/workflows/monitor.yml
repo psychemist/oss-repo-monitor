@@ -20,7 +20,6 @@ jobs:
     env:
       REPOS: |
         bitcoin/bitcoin
-        rust-bitcoin/rust-bitcoin
         bitcoin-core/secp256k1
       INPUT_GIT_SECRET: ${{ github.token }}
       INPUT_DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
